@@ -1,7 +1,11 @@
-package com.example.model
+package com.example.shopCart.order
+
+import com.example.shopCart.item.Item
+import com.example.shopCart.payment.Payment
+import com.example.shopCart.user.User
+import io.estatico.newtype.macros.newtype
 
 import java.util.UUID
-import io.estatico.newtype.macros.newtype
 
 final case class OrderItem(itemId: Item.Id,
                            price: Double,

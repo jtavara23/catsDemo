@@ -1,7 +1,8 @@
-package com.example.model
+package com.example.shopCart.item
+
+import io.estatico.newtype.macros.newtype
 
 import java.util.UUID
-import io.estatico.newtype.macros.newtype
 
 final case class Item(id: Item.Id,
                       name: Item.Name,

@@ -1,4 +1,4 @@
-package com.example.model
+package com.example.shopCart.user
 
 import java.util.UUID
 import io.estatico.newtype.macros.newtype

@@ -1,7 +1,9 @@
-package com.example.model
+package com.example.shopCart.payment
+
+import com.example.shopCart.order.Order
+import io.estatico.newtype.macros.newtype
 
 import java.util.UUID
-import io.estatico.newtype.macros.newtype
 final case class Payment(order: Order, card: String)
 
 object Payment {
