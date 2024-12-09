@@ -5,6 +5,7 @@ import com.example.shopCart.Shop
 import com.example.shopCart.cart.{CartService, CartServiceImpl}
 import org.http4s.server.blaze.BlazeServerBuilder
 import org.http4s.implicits._
+import cats.syntax.semigroupk._
 
 object Main extends IOApp.Simple {
   def run: IO[Unit] = {

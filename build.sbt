@@ -14,6 +14,9 @@ lazy val root = (project in file(".")).settings(
     "io.circe" %% "circe-generic" % "0.13.0",
     "io.circe" %% "circe-parser" % "0.13.0",
     "co.fs2" %% "fs2-core" % "2.5.9",
-    "io.estatico" %% "newtype" % "0.4.4"
+    "io.estatico" %% "newtype" % "0.4.4",
+    "org.scalatest" %% "scalatest" % "3.2.9" % Test,
+    "org.mockito" %% "mockito-scala" % "1.16.37",
+    "org.mockito" %% "mockito-scala-scalatest" % "1.16.37",
   )
 )
